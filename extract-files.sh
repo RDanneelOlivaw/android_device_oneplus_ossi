@@ -13,7 +13,7 @@ fi
 
 set -e
 
-export DEVICE=larry
+export DEVICE=ossi
 export DEVICE_COMMON=sm6375-common
 export VENDOR=oneplus
 export VENDOR_COMMON=${VENDOR}

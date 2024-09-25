@@ -15,10 +15,10 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_larry
-PRODUCT_DEVICE := larry
+PRODUCT_NAME := lineage_ossi
+PRODUCT_DEVICE := ossi
 PRODUCT_BRAND := oneplus
-PRODUCT_MODEL := CPH2467
+PRODUCT_MODEL := CPH2513
 PRODUCT_MANUFACTURER := oneplus
 
 PRODUCT_SYSTEM_NAME := OP5958L1
@@ -32,4 +32,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=$(PRODUCT_SYSTEM_NAME)
 
 # Build fingerprint
-BUILD_FINGERPRINT := "OnePlus/CPH2467/OP5958L1:14/UKQ1.230924.001/T.R4T2.18a850a_1c802_26b84:user/release-keys"
+BUILD_FINGERPRINT := "OnePlus/CPH2513/OP5958L1:14/UKQ1.230924.001/T.R4T2.18a850a_1c802_26b84:user/release-keys"

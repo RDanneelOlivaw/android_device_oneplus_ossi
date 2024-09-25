@@ -7,7 +7,7 @@
 # Inherit from sm6375-common
 -include device/oneplus/sm6375-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/oneplus/larry
+DEVICE_PATH := device/oneplus/ossi
 
 # Inherit the proprietary files
--include vendor/oneplus/larry/BoardConfigVendor.mk
+-include vendor/oneplus/ossi/BoardConfigVendor.mk
